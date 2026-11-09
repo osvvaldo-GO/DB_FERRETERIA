@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ferretería Rodamientos y Fierros</string>
+
+    <!-- Menú principal -->
+    <string name="menu_clientes">Clientes</string>
+    <string name="menu_productos">Productos</string>
+    <string name="menu_pedidos">Pedidos</string>
+    <string name="menu_facturas">Facturas</string>
+
+    <!-- Acciones genéricas -->
+    <string name="btn_guardar">Guardar</string>
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="btn_editar">Editar</string>
+    <string name="btn_eliminar">Eliminar</string>
+    <string name="btn_nuevo">Nuevo</string>
+
+    <!-- Clientes -->
+    <string name="title_clientes">Gestión de Clientes</string>
+    <string name="hint_nombre">Nombre completo</string>
+    <string name="hint_direccion">Dirección</string>
+    <string name="hint_telefono">Teléfono</string>
+    <string name="label_nombre">Nombre</string>
+    <string name="label_direccion">Dirección</string>
+    <string name="label_telefono">Teléfono</string>
+
+    <!-- Productos -->
+    <string name="title_productos">Gestión de Productos</string>
+    <string name="hint_nombre_producto">Nombre del producto</string>
+    <string name="hint_fabricante">Fabricante</string>
+    <string name="hint_valor">Valor (COP)</string>
+    <string name="label_fabricante">Fabricante</string>
+    <string name="label_valor">Valor</string>
+
+    <!-- Pedidos -->
+    <string name="title_pedidos">Gestión de Pedidos</string>
+    <string name="hint_descripcion">Descripción del pedido</string>
+    <string name="hint_fecha">Fecha (YYYY-MM-DD)</string>
+    <string name="label_cliente">Cliente</string>
+    <string name="label_descripcion">Descripción</string>
+    <string name="label_fecha">Fecha</string>
+
+    <!-- Facturas -->
+    <string name="title_facturas">Gestión de Facturas</string>
+    <string name="hint_valor_total">Valor total</string>
+    <string name="hint_fecha_factura">Fecha de factura (YYYY-MM-DD)</string>
+    <string name="label_pedido">Pedido</string>
+    <string name="label_valor_total">Valor total</string>
+
+    <!-- Mensajes -->
+    <string name="msg_guardado">Registro guardado correctamente</string>
+    <string name="msg_actualizado">Registro actualizado correctamente</string>
+    <string name="msg_eliminado">Registro eliminado</string>
+    <string name="msg_error_campos">Por favor complete todos los campos</string>
+    <string name="msg_confirmar_eliminar">¿Desea eliminar este registro?</string>
+    <string name="msg_si">Sí</string>
+    <string name="msg_no">No</string>
+    <string name="msg_lista_vacia">No hay registros para mostrar</string>
+</resources>

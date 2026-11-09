@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DBFerreteria">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Actividades de Clientes -->
+        <activity android:name=".clientes.ClientesActivity" android:exported="false"/>
+        <activity android:name=".clientes.ClienteFormActivity" android:exported="false"/>
+
+        <!-- Actividades de Productos -->
+        <activity android:name=".productos.ProductosActivity" android:exported="false"/>
+        <activity android:name=".productos.ProductoFormActivity" android:exported="false"/>
+
+        <!-- Actividades de Pedidos -->
+        <activity android:name=".pedidos.PedidosActivity" android:exported="false"/>
+        <activity android:name=".pedidos.PedidoFormActivity" android:exported="false"/>
+
+        <!-- Actividades de Facturas -->
+        <activity android:name=".facturas.FacturasActivity" android:exported="false"/>
+        <activity android:name=".facturas.FacturaFormActivity" android:exported="false"/>
+
+    </application>
+
+</manifest>
