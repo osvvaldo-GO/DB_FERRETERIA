@@ -171,14 +171,6 @@ DB_FERRETERIA/
 
 ---
 
-## 5. CÓMO ABRIR EL PROYECTO EN ANDROID STUDIO
-
-1. Abrir Android Studio
-2. File → Open → seleccionar `c:\Users\OSWALDO\AndroidProjects\DB_FERRETERIA`
-3. Si pregunta por JVM → elegir **"Use JVM 17"**
-4. Esperar que Gradle sincronice (2-5 minutos la primera vez)
-5. Conectar dispositivo Android o usar emulador
-6. Pulsar ▶ para ejecutar
 
 ### Requisito del dispositivo
 - Android 7.0 o superior (minSdk 24)
@@ -186,7 +178,7 @@ DB_FERRETERIA/
 
 ---
 
-## 6. BASES DE DATOS CREADAS
+## 5. BASES DE DATOS CREADAS
 
 ### SQLite (para el proyecto Android)
 - Archivo: `ferreteria_rodamientos.db`
@@ -202,7 +194,7 @@ DB_FERRETERIA/
 
 ---
 
-## 7. PENDIENTES — TAREA #2
+## 6. TAREA #2
 
 Los siguientes puntos se desarrollarán en la Tarea #2:
 
@@ -213,6 +205,16 @@ Los siguientes puntos se desarrollarán en la Tarea #2:
 8. Pruebas unitarias — Despliegue en forma local
 9. Despliegue en tienda de aplicaciones
 10. Bases de Datos con SQLite (integración completa)
+
+### Nota sobre Pruebas unitarias (punto 8)
+La sustentación de estas pruebas se realiza con la evidencia de funcionamiento
+de la App mediante capturas de pantalla de los aspectos relevantes de
+funcionalidad del software, incluyendo:
+- Despliegue exitoso en dispositivo físico **Xiaomi Redmi Note 9S**
+- Despliegue exitoso en emulador **Pixel 8** de Android Studio
+- Operaciones CRUD verificadas: inserción, consulta, actualización y eliminación
+  de registros en las entidades Clientes, Productos, Pedidos y Facturas
+- Video de demostración del funcionamiento completo de la aplicación
 
 ---
 
